@@ -8,7 +8,7 @@ This application, however, implements a slightly different approach. On the mast
 
 On the multiple-rooms branch, we dynamically create a subscription for each existing chatroom, and our Messages Channel broadcasts to/streams up each specific subscription.
 
-To learn more about the multi-room approach, check out this blog post. You can follow along with the blog post by forking and cloning this lab, and checking out the starting-state branch.
+To learn more about the multi-room approach, [check out this blog post](http://www.thegreatcodeadventure.com/rails-5-action-cable-with-multiple-chatroom-subscriptions/). You can follow along with the blog post by forking and cloning this lab, and checking out the starting-state branch.
 
 ### Running Locally
 
