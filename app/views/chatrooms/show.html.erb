@@ -7,7 +7,7 @@
       <%= render partial: 'messages/message', collection: @chatroom.messages%>
     </div>
   <%else%>
-    <div class="panel-body hidden" id="messages">
+    <div class="panel-body hidden" id="messages" data-chatroom=<%=@chatroom.id%>>
     </div>
   <%end%>
 </div>
